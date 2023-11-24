@@ -1,0 +1,29 @@
+.right-side-header {
+    padding-right: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+
+.ant-layout-header {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.custom-dropdown li {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+/* CSS for detecting mobile screen sizes */
+@media (max-width: 768px) {
+    .mobile-screen {
+        display: none !important;
+    }
+
+    .non-mobile-screen {
+        display: block !important;
+    }
+}
